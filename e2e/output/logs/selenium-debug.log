@@ -1,0 +1,839 @@
+14:03:02.632 INFO - Launching a standalone Selenium Server
+14:03:02.842 INFO - Java: Oracle Corporation 25.91-b14
+14:03:02.842 INFO - OS: Mac OS X 10.13.4 x86_64
+14:03:02.877 INFO - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
+14:03:02.985 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+14:03:02.986 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+14:03:02.986 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+14:03:02.986 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+14:03:02.996 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+14:03:02.996 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+14:03:03.159 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+14:03:03.159 INFO - Selenium Server is up and running
+14:03:04.290 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Calculator, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+14:03:04.304 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Calculator, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011) on port 11783
+Only local connections are allowed.
+14:03:09.209 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Calculator, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+14:03:09.234 INFO - Executing: [set window size])
+14:03:09.406 INFO - Done: [set window size]
+14:03:09.412 INFO - Executing: [get: http://www.globalsqa.com/angularJs-protractor/SimpleCalculator/])
+14:03:10.401 INFO - Done: [get: http://www.globalsqa.com/angularJs-protractor/SimpleCalculator/]
+14:03:10.411 INFO - Executing: [find element: By.cssSelector: h1])
+14:03:10.499 INFO - Done: [find element: By.cssSelector: h1]
+14:03:10.506 INFO - Executing: [get text: 0 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> css selector: h1]])
+14:03:10.533 INFO - Done: [get text: 0 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> css selector: h1]]
+14:03:10.541 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:10.606 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:10.612 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:10.631 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:10.637 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:10.655 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:10.662 INFO - Executing: [clear: 1 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:10.693 INFO - Done: [clear: 1 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:10.700 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:10.713 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:10.718 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:10.731 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:10.736 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:10.748 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:10.753 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input], [5, 5]])
+14:03:10.896 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input], [5, 5]]
+14:03:10.902 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:10.925 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:10.930 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:10.950 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:10.955 INFO - Executing: [clear: 2 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]])
+14:03:10.982 INFO - Done: [clear: 2 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]]
+14:03:10.989 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:11.001 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:11.010 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input], [5, 5]])
+14:03:11.066 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input], [5, 5]]
+14:03:11.071 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:11.095 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:11.099 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:11.118 INFO - Done: [is displayed: 3 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:11.123 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[3]/td[2]/select])
+14:03:11.146 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[3]/td[2]/select]
+14:03:11.151 INFO - Executing: [send keys: 4 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[3]/td[2]/select], [+]])
+14:03:11.203 INFO - Done: [send keys: 4 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[3]/td[2]/select], [+]]
+14:03:11.210 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:11.224 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:11.234 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:11.245 INFO - Done: [is displayed: 3 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:11.252 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:11.263 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:11.267 INFO - Executing: [get text: 3 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:11.291 INFO - Done: [get text: 3 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:11.296 INFO - Executing: [get: http://www.globalsqa.com/angularJs-protractor/SimpleCalculator/])
+14:03:11.419 INFO - Done: [get: http://www.globalsqa.com/angularJs-protractor/SimpleCalculator/]
+14:03:11.425 INFO - Executing: [find element: By.cssSelector: h1])
+14:03:11.437 INFO - Done: [find element: By.cssSelector: h1]
+14:03:11.441 INFO - Executing: [get text: 5 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> css selector: h1]])
+14:03:11.463 INFO - Done: [get text: 5 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> css selector: h1]]
+14:03:11.468 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:11.480 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:11.484 INFO - Executing: [is displayed: 6 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:11.502 INFO - Done: [is displayed: 6 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:11.509 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:11.522 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:11.529 INFO - Executing: [clear: 6 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:11.553 INFO - Done: [clear: 6 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:11.560 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:11.573 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:11.578 INFO - Executing: [is displayed: 6 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:11.590 INFO - Done: [is displayed: 6 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:11.594 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:11.606 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:11.611 INFO - Executing: [send keys: 6 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input], [-, 1, 2]])
+14:03:11.667 INFO - Done: [send keys: 6 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input], [-, 1, 2]]
+14:03:11.672 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:11.685 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:11.694 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:11.710 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:11.714 INFO - Executing: [clear: 7 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]])
+14:03:11.748 INFO - Done: [clear: 7 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]]
+14:03:11.754 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:11.767 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:11.774 INFO - Executing: [send keys: 7 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input], [-, 1, 2]])
+14:03:11.832 INFO - Done: [send keys: 7 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input], [-, 1, 2]]
+14:03:11.836 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:11.852 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:11.856 INFO - Executing: [is displayed: 8 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:11.879 INFO - Done: [is displayed: 8 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:11.884 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[3]/td[2]/select])
+14:03:11.898 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[3]/td[2]/select]
+14:03:11.902 INFO - Executing: [send keys: 9 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[3]/td[2]/select], [+]])
+14:03:11.959 INFO - Done: [send keys: 9 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[3]/td[2]/select], [+]]
+14:03:11.966 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:11.980 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:11.984 INFO - Executing: [is displayed: 8 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:11.997 INFO - Done: [is displayed: 8 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:12.002 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:12.013 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:12.017 INFO - Executing: [get text: 8 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:12.038 INFO - Done: [get text: 8 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:12.042 INFO - Executing: [get: http://www.globalsqa.com/angularJs-protractor/SimpleCalculator/])
+14:03:12.118 INFO - Done: [get: http://www.globalsqa.com/angularJs-protractor/SimpleCalculator/]
+14:03:12.125 INFO - Executing: [find element: By.cssSelector: h1])
+14:03:12.136 INFO - Done: [find element: By.cssSelector: h1]
+14:03:12.140 INFO - Executing: [get text: 10 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> css selector: h1]])
+14:03:12.161 INFO - Done: [get text: 10 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> css selector: h1]]
+14:03:12.165 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:12.176 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:12.180 INFO - Executing: [is displayed: 11 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:12.199 INFO - Done: [is displayed: 11 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:12.213 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:12.224 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:12.233 INFO - Executing: [clear: 11 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:12.278 INFO - Done: [clear: 11 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:12.287 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:12.298 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:12.301 INFO - Executing: [is displayed: 11 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:12.312 INFO - Done: [is displayed: 11 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:12.316 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:12.327 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:12.330 INFO - Executing: [send keys: 11 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input], [1, 2]])
+14:03:12.381 INFO - Done: [send keys: 11 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input], [1, 2]]
+14:03:12.386 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:12.401 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:12.408 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:12.420 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:12.427 INFO - Executing: [clear: 12 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]])
+14:03:12.458 INFO - Done: [clear: 12 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]]
+14:03:12.464 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:12.478 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:12.482 INFO - Executing: [send keys: 12 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input], [-, 1, 2]])
+14:03:12.539 INFO - Done: [send keys: 12 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input], [-, 1, 2]]
+14:03:12.544 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:12.556 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:12.561 INFO - Executing: [is displayed: 13 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:12.582 INFO - Done: [is displayed: 13 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:12.586 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[3]/td[2]/select])
+14:03:12.604 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[3]/td[2]/select]
+14:03:12.607 INFO - Executing: [send keys: 14 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[3]/td[2]/select], [+]])
+14:03:12.678 INFO - Done: [send keys: 14 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[3]/td[2]/select], [+]]
+14:03:12.683 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:12.698 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:12.701 INFO - Executing: [is displayed: 13 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:12.714 INFO - Done: [is displayed: 13 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:12.718 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:12.729 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:12.733 INFO - Executing: [get text: 13 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:12.756 INFO - Done: [get text: 13 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:12.760 INFO - Executing: [get: http://www.globalsqa.com/angularJs-protractor/SimpleCalculator/])
+14:03:12.821 INFO - Done: [get: http://www.globalsqa.com/angularJs-protractor/SimpleCalculator/]
+14:03:12.828 INFO - Executing: [find element: By.cssSelector: h1])
+14:03:12.840 INFO - Done: [find element: By.cssSelector: h1]
+14:03:12.843 INFO - Executing: [get text: 15 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> css selector: h1]])
+14:03:12.863 INFO - Done: [get text: 15 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> css selector: h1]]
+14:03:12.868 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:12.879 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:12.882 INFO - Executing: [is displayed: 16 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:12.900 INFO - Done: [is displayed: 16 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:12.904 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:12.916 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:12.919 INFO - Executing: [clear: 16 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:12.943 INFO - Done: [clear: 16 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:12.948 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:12.961 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:12.964 INFO - Executing: [is displayed: 16 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:12.975 INFO - Done: [is displayed: 16 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:12.979 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:12.989 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:12.992 INFO - Executing: [send keys: 16 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input], [0]])
+14:03:13.038 INFO - Done: [send keys: 16 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input], [0]]
+14:03:13.043 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:13.057 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:13.061 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:13.075 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:13.078 INFO - Executing: [clear: 17 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]])
+14:03:13.109 INFO - Done: [clear: 17 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]]
+14:03:13.114 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:13.129 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:13.133 INFO - Executing: [send keys: 17 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input], [0]])
+14:03:13.181 INFO - Done: [send keys: 17 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input], [0]]
+14:03:13.187 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:13.198 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:13.202 INFO - Executing: [is displayed: 18 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:13.226 INFO - Done: [is displayed: 18 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:13.230 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[3]/td[2]/select])
+14:03:13.243 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[3]/td[2]/select]
+14:03:13.247 INFO - Executing: [send keys: 19 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[3]/td[2]/select], [+]])
+14:03:13.313 INFO - Done: [send keys: 19 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[3]/td[2]/select], [+]]
+14:03:13.317 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:13.334 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:13.338 INFO - Executing: [is displayed: 18 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:13.350 INFO - Done: [is displayed: 18 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:13.355 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:13.367 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:13.371 INFO - Executing: [get text: 18 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:13.396 INFO - Done: [get text: 18 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:13.440 INFO - Executing: [get: http://www.globalsqa.com/angularJs-protractor/SimpleCalculator/])
+14:03:13.505 INFO - Done: [get: http://www.globalsqa.com/angularJs-protractor/SimpleCalculator/]
+14:03:13.509 INFO - Executing: [find element: By.cssSelector: h1])
+14:03:13.525 INFO - Done: [find element: By.cssSelector: h1]
+14:03:13.529 INFO - Executing: [get text: 20 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> css selector: h1]])
+14:03:13.552 INFO - Done: [get text: 20 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> css selector: h1]]
+14:03:13.556 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:13.567 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:13.570 INFO - Executing: [is displayed: 21 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:13.589 INFO - Done: [is displayed: 21 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:13.593 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:13.604 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:13.607 INFO - Executing: [clear: 21 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:13.631 INFO - Done: [clear: 21 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:13.636 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:13.650 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:13.653 INFO - Executing: [is displayed: 21 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:13.664 INFO - Done: [is displayed: 21 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:13.667 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:13.678 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:13.681 INFO - Executing: [send keys: 21 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input], [5, 5]])
+14:03:13.732 INFO - Done: [send keys: 21 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input], [5, 5]]
+14:03:13.738 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:13.750 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:13.755 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:13.769 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:13.772 INFO - Executing: [clear: 22 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]])
+14:03:13.803 INFO - Done: [clear: 22 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]]
+14:03:13.808 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:13.823 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:13.826 INFO - Executing: [send keys: 22 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input], [5, 5]])
+14:03:13.873 INFO - Done: [send keys: 22 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input], [5, 5]]
+14:03:13.877 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:13.890 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:13.893 INFO - Executing: [is displayed: 23 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:13.915 INFO - Done: [is displayed: 23 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:13.919 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[3]/td[2]/select])
+14:03:13.932 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[3]/td[2]/select]
+14:03:13.936 INFO - Executing: [send keys: 24 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[3]/td[2]/select], [-]])
+14:03:13.988 INFO - Done: [send keys: 24 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[3]/td[2]/select], [-]]
+14:03:13.992 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:14.011 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:14.017 INFO - Executing: [is displayed: 23 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:14.037 INFO - Done: [is displayed: 23 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:14.040 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:14.054 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:14.057 INFO - Executing: [get text: 23 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:14.078 INFO - Done: [get text: 23 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:14.084 INFO - Executing: [get: http://www.globalsqa.com/angularJs-protractor/SimpleCalculator/])
+14:03:14.145 INFO - Done: [get: http://www.globalsqa.com/angularJs-protractor/SimpleCalculator/]
+14:03:14.150 INFO - Executing: [find element: By.cssSelector: h1])
+14:03:14.163 INFO - Done: [find element: By.cssSelector: h1]
+14:03:14.167 INFO - Executing: [get text: 25 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> css selector: h1]])
+14:03:14.188 INFO - Done: [get text: 25 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> css selector: h1]]
+14:03:14.192 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:14.202 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:14.206 INFO - Executing: [is displayed: 26 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:14.231 INFO - Done: [is displayed: 26 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:14.238 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:14.251 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:14.257 INFO - Executing: [clear: 26 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:14.280 INFO - Done: [clear: 26 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:14.287 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:14.300 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:14.304 INFO - Executing: [is displayed: 26 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:14.314 INFO - Done: [is displayed: 26 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:14.318 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:14.329 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:14.335 INFO - Executing: [send keys: 26 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input], [-, 1, 2]])
+14:03:14.397 INFO - Done: [send keys: 26 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input], [-, 1, 2]]
+14:03:14.405 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:14.417 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:14.422 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:14.433 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:14.436 INFO - Executing: [clear: 27 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]])
+14:03:14.462 INFO - Done: [clear: 27 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]]
+14:03:14.468 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:14.480 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:14.485 INFO - Executing: [send keys: 27 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input], [-, 1, 2]])
+14:03:14.542 INFO - Done: [send keys: 27 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input], [-, 1, 2]]
+14:03:14.545 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:14.559 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:14.562 INFO - Executing: [is displayed: 28 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:14.584 INFO - Done: [is displayed: 28 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:14.588 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[3]/td[2]/select])
+14:03:14.599 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[3]/td[2]/select]
+14:03:14.603 INFO - Executing: [send keys: 29 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[3]/td[2]/select], [-]])
+14:03:14.655 INFO - Done: [send keys: 29 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[3]/td[2]/select], [-]]
+14:03:14.659 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:14.672 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:14.675 INFO - Executing: [is displayed: 28 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:14.689 INFO - Done: [is displayed: 28 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:14.699 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:14.713 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:14.716 INFO - Executing: [get text: 28 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:14.740 INFO - Done: [get text: 28 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:14.745 INFO - Executing: [get: http://www.globalsqa.com/angularJs-protractor/SimpleCalculator/])
+14:03:14.808 INFO - Done: [get: http://www.globalsqa.com/angularJs-protractor/SimpleCalculator/]
+14:03:14.812 INFO - Executing: [find element: By.cssSelector: h1])
+14:03:14.824 INFO - Done: [find element: By.cssSelector: h1]
+14:03:14.827 INFO - Executing: [get text: 30 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> css selector: h1]])
+14:03:14.848 INFO - Done: [get text: 30 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> css selector: h1]]
+14:03:14.852 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:14.862 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:14.866 INFO - Executing: [is displayed: 31 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:14.883 INFO - Done: [is displayed: 31 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:14.888 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:14.899 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:14.902 INFO - Executing: [clear: 31 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:14.925 INFO - Done: [clear: 31 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:14.931 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:14.942 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:14.945 INFO - Executing: [is displayed: 31 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:14.957 INFO - Done: [is displayed: 31 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:14.960 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:14.972 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:14.976 INFO - Executing: [send keys: 31 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input], [1, 2]])
+14:03:15.025 INFO - Done: [send keys: 31 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input], [1, 2]]
+14:03:15.030 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:15.044 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:15.048 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:15.060 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:15.063 INFO - Executing: [clear: 32 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]])
+14:03:15.095 INFO - Done: [clear: 32 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]]
+14:03:15.102 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:15.112 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:15.117 INFO - Executing: [send keys: 32 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input], [-, 1, 2]])
+14:03:15.175 INFO - Done: [send keys: 32 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input], [-, 1, 2]]
+14:03:15.178 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:15.193 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:15.196 INFO - Executing: [is displayed: 33 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:15.216 INFO - Done: [is displayed: 33 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:15.225 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[3]/td[2]/select])
+14:03:15.240 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[3]/td[2]/select]
+14:03:15.244 INFO - Executing: [send keys: 34 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[3]/td[2]/select], [-]])
+14:03:15.294 INFO - Done: [send keys: 34 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[3]/td[2]/select], [-]]
+14:03:15.302 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:15.315 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:15.318 INFO - Executing: [is displayed: 33 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:15.331 INFO - Done: [is displayed: 33 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:15.335 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:15.348 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:15.351 INFO - Executing: [get text: 33 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:15.377 INFO - Done: [get text: 33 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:15.383 INFO - Executing: [get: http://www.globalsqa.com/angularJs-protractor/SimpleCalculator/])
+14:03:15.450 INFO - Done: [get: http://www.globalsqa.com/angularJs-protractor/SimpleCalculator/]
+14:03:15.459 INFO - Executing: [find element: By.cssSelector: h1])
+14:03:15.475 INFO - Done: [find element: By.cssSelector: h1]
+14:03:15.478 INFO - Executing: [get text: 35 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> css selector: h1]])
+14:03:15.498 INFO - Done: [get text: 35 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> css selector: h1]]
+14:03:15.501 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:15.512 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:15.515 INFO - Executing: [is displayed: 36 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:15.532 INFO - Done: [is displayed: 36 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:15.535 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:15.546 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:15.550 INFO - Executing: [clear: 36 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:15.575 INFO - Done: [clear: 36 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:15.580 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:15.591 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:15.594 INFO - Executing: [is displayed: 36 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:15.604 INFO - Done: [is displayed: 36 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:15.607 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:15.617 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:15.620 INFO - Executing: [send keys: 36 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input], [0]])
+14:03:15.665 INFO - Done: [send keys: 36 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input], [0]]
+14:03:15.669 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:15.683 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:15.686 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:15.699 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:15.703 INFO - Executing: [clear: 37 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]])
+14:03:15.733 INFO - Done: [clear: 37 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]]
+14:03:15.737 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:15.750 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:15.754 INFO - Executing: [send keys: 37 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input], [0]])
+14:03:15.810 INFO - Done: [send keys: 37 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input], [0]]
+14:03:15.815 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:15.825 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:15.829 INFO - Executing: [is displayed: 38 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:15.851 INFO - Done: [is displayed: 38 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:15.855 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[3]/td[2]/select])
+14:03:15.867 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[3]/td[2]/select]
+14:03:15.871 INFO - Executing: [send keys: 39 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[3]/td[2]/select], [-]])
+14:03:15.922 INFO - Done: [send keys: 39 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[3]/td[2]/select], [-]]
+14:03:15.926 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:15.941 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:15.945 INFO - Executing: [is displayed: 38 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:15.968 INFO - Done: [is displayed: 38 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:15.974 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:15.988 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:15.991 INFO - Executing: [get text: 38 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:16.015 INFO - Done: [get text: 38 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:16.044 INFO - Executing: [get: http://www.globalsqa.com/angularJs-protractor/SimpleCalculator/])
+14:03:16.116 INFO - Done: [get: http://www.globalsqa.com/angularJs-protractor/SimpleCalculator/]
+14:03:16.121 INFO - Executing: [find element: By.cssSelector: h1])
+14:03:16.132 INFO - Done: [find element: By.cssSelector: h1]
+14:03:16.135 INFO - Executing: [get text: 40 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> css selector: h1]])
+14:03:16.156 INFO - Done: [get text: 40 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> css selector: h1]]
+14:03:16.162 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:16.173 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:16.176 INFO - Executing: [is displayed: 41 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:16.193 INFO - Done: [is displayed: 41 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:16.197 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:16.215 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:16.220 INFO - Executing: [clear: 41 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:16.242 INFO - Done: [clear: 41 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:16.248 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:16.260 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:16.264 INFO - Executing: [is displayed: 41 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:16.275 INFO - Done: [is displayed: 41 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:16.279 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:16.289 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:16.293 INFO - Executing: [send keys: 41 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input], [5, 5]])
+14:03:16.350 INFO - Done: [send keys: 41 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input], [5, 5]]
+14:03:16.354 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:16.368 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:16.372 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:16.386 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:16.389 INFO - Executing: [clear: 42 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]])
+14:03:16.419 INFO - Done: [clear: 42 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]]
+14:03:16.424 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:16.438 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:16.445 INFO - Executing: [send keys: 42 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input], [5, 5]])
+14:03:16.495 INFO - Done: [send keys: 42 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input], [5, 5]]
+14:03:16.502 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:16.517 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:16.519 INFO - Executing: [is displayed: 43 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:16.537 INFO - Done: [is displayed: 43 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:16.541 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[3]/td[2]/select])
+14:03:16.555 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[3]/td[2]/select]
+14:03:16.559 INFO - Executing: [send keys: 44 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[3]/td[2]/select], [*]])
+14:03:16.623 INFO - Done: [send keys: 44 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[3]/td[2]/select], [*]]
+14:03:16.629 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:16.643 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:16.646 INFO - Executing: [is displayed: 43 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:16.657 INFO - Done: [is displayed: 43 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:16.661 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:16.674 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:16.677 INFO - Executing: [get text: 43 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:16.702 INFO - Done: [get text: 43 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:16.706 INFO - Executing: [get: http://www.globalsqa.com/angularJs-protractor/SimpleCalculator/])
+14:03:16.777 INFO - Done: [get: http://www.globalsqa.com/angularJs-protractor/SimpleCalculator/]
+14:03:16.784 INFO - Executing: [find element: By.cssSelector: h1])
+14:03:16.796 INFO - Done: [find element: By.cssSelector: h1]
+14:03:16.799 INFO - Executing: [get text: 45 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> css selector: h1]])
+14:03:16.821 INFO - Done: [get text: 45 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> css selector: h1]]
+14:03:16.825 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:16.835 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:16.838 INFO - Executing: [is displayed: 46 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:16.855 INFO - Done: [is displayed: 46 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:16.859 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:16.870 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:16.874 INFO - Executing: [clear: 46 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:16.897 INFO - Done: [clear: 46 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:16.901 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:16.914 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:16.917 INFO - Executing: [is displayed: 46 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:16.929 INFO - Done: [is displayed: 46 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:16.933 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:16.944 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:16.947 INFO - Executing: [send keys: 46 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input], [-, 1, 2]])
+14:03:17.000 INFO - Done: [send keys: 46 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input], [-, 1, 2]]
+14:03:17.004 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:17.017 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:17.021 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:17.036 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:17.039 INFO - Executing: [clear: 47 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]])
+14:03:17.069 INFO - Done: [clear: 47 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]]
+14:03:17.073 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:17.087 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:17.090 INFO - Executing: [send keys: 47 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input], [-, 1, 2]])
+14:03:17.150 INFO - Done: [send keys: 47 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input], [-, 1, 2]]
+14:03:17.154 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:17.171 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:17.174 INFO - Executing: [is displayed: 48 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:17.199 INFO - Done: [is displayed: 48 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:17.202 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[3]/td[2]/select])
+14:03:17.218 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[3]/td[2]/select]
+14:03:17.222 INFO - Executing: [send keys: 49 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[3]/td[2]/select], [*]])
+14:03:17.284 INFO - Done: [send keys: 49 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[3]/td[2]/select], [*]]
+14:03:17.288 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:17.303 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:17.306 INFO - Executing: [is displayed: 48 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:17.318 INFO - Done: [is displayed: 48 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:17.321 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:17.335 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:17.338 INFO - Executing: [get text: 48 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:17.370 INFO - Done: [get text: 48 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:17.374 INFO - Executing: [get: http://www.globalsqa.com/angularJs-protractor/SimpleCalculator/])
+14:03:17.437 INFO - Done: [get: http://www.globalsqa.com/angularJs-protractor/SimpleCalculator/]
+14:03:17.442 INFO - Executing: [find element: By.cssSelector: h1])
+14:03:17.453 INFO - Done: [find element: By.cssSelector: h1]
+14:03:17.456 INFO - Executing: [get text: 50 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> css selector: h1]])
+14:03:17.476 INFO - Done: [get text: 50 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> css selector: h1]]
+14:03:17.479 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:17.490 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:17.492 INFO - Executing: [is displayed: 51 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:17.509 INFO - Done: [is displayed: 51 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:17.513 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:17.524 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:17.541 INFO - Executing: [clear: 51 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:17.566 INFO - Done: [clear: 51 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:17.570 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:17.582 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:17.585 INFO - Executing: [is displayed: 51 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:17.596 INFO - Done: [is displayed: 51 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:17.599 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:17.609 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:17.612 INFO - Executing: [send keys: 51 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input], [1, 2]])
+14:03:17.663 INFO - Done: [send keys: 51 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input], [1, 2]]
+14:03:17.666 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:17.680 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:17.683 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:17.697 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:17.700 INFO - Executing: [clear: 52 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]])
+14:03:17.731 INFO - Done: [clear: 52 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]]
+14:03:17.736 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:17.751 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:17.754 INFO - Executing: [send keys: 52 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input], [-, 1, 2]])
+14:03:17.818 INFO - Done: [send keys: 52 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input], [-, 1, 2]]
+14:03:17.821 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:17.837 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:17.840 INFO - Executing: [is displayed: 53 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:17.863 INFO - Done: [is displayed: 53 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:17.866 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[3]/td[2]/select])
+14:03:17.879 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[3]/td[2]/select]
+14:03:17.883 INFO - Executing: [send keys: 54 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[3]/td[2]/select], [*]])
+14:03:17.935 INFO - Done: [send keys: 54 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[3]/td[2]/select], [*]]
+14:03:17.940 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:17.954 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:17.957 INFO - Executing: [is displayed: 53 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:17.969 INFO - Done: [is displayed: 53 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:17.972 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:17.985 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:17.988 INFO - Executing: [get text: 53 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:18.015 INFO - Done: [get text: 53 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:18.019 INFO - Executing: [get: http://www.globalsqa.com/angularJs-protractor/SimpleCalculator/])
+14:03:18.082 INFO - Done: [get: http://www.globalsqa.com/angularJs-protractor/SimpleCalculator/]
+14:03:18.087 INFO - Executing: [find element: By.cssSelector: h1])
+14:03:18.098 INFO - Done: [find element: By.cssSelector: h1]
+14:03:18.101 INFO - Executing: [get text: 55 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> css selector: h1]])
+14:03:18.121 INFO - Done: [get text: 55 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> css selector: h1]]
+14:03:18.125 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:18.136 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:18.138 INFO - Executing: [is displayed: 56 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:18.155 INFO - Done: [is displayed: 56 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:18.159 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:18.169 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:18.172 INFO - Executing: [clear: 56 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:18.195 INFO - Done: [clear: 56 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:18.200 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:18.211 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:18.214 INFO - Executing: [is displayed: 56 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:18.229 INFO - Done: [is displayed: 56 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:18.234 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:18.247 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:18.251 INFO - Executing: [send keys: 56 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input], [0]])
+14:03:18.298 INFO - Done: [send keys: 56 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input], [0]]
+14:03:18.301 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:18.315 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:18.318 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:18.331 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:18.333 INFO - Executing: [clear: 57 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]])
+14:03:18.360 INFO - Done: [clear: 57 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]]
+14:03:18.367 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:18.381 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:18.384 INFO - Executing: [send keys: 57 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input], [0]])
+14:03:18.434 INFO - Done: [send keys: 57 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input], [0]]
+14:03:18.438 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:18.452 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:18.455 INFO - Executing: [is displayed: 58 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:18.472 INFO - Done: [is displayed: 58 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:18.475 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[3]/td[2]/select])
+14:03:18.488 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[3]/td[2]/select]
+14:03:18.491 INFO - Executing: [send keys: 59 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[3]/td[2]/select], [*]])
+14:03:18.543 INFO - Done: [send keys: 59 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[3]/td[2]/select], [*]]
+14:03:18.547 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:18.558 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:18.561 INFO - Executing: [is displayed: 58 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:18.575 INFO - Done: [is displayed: 58 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:18.580 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:18.597 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:18.601 INFO - Executing: [get text: 58 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:18.626 INFO - Done: [get text: 58 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:18.629 INFO - Executing: [get: http://www.globalsqa.com/angularJs-protractor/SimpleCalculator/])
+14:03:18.701 INFO - Done: [get: http://www.globalsqa.com/angularJs-protractor/SimpleCalculator/]
+14:03:18.707 INFO - Executing: [find element: By.cssSelector: h1])
+14:03:18.718 INFO - Done: [find element: By.cssSelector: h1]
+14:03:18.722 INFO - Executing: [get text: 60 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> css selector: h1]])
+14:03:18.742 INFO - Done: [get text: 60 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> css selector: h1]]
+14:03:18.745 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:18.756 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:18.758 INFO - Executing: [is displayed: 61 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:18.776 INFO - Done: [is displayed: 61 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:18.780 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:18.790 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:18.793 INFO - Executing: [clear: 61 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:18.816 INFO - Done: [clear: 61 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:18.820 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:18.831 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:18.834 INFO - Executing: [is displayed: 61 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:18.846 INFO - Done: [is displayed: 61 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:18.849 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:18.859 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:18.863 INFO - Executing: [send keys: 61 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input], [1, 2]])
+14:03:18.911 INFO - Done: [send keys: 61 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input], [1, 2]]
+14:03:18.915 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:18.931 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:18.934 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:18.949 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:18.952 INFO - Executing: [clear: 62 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]])
+14:03:19.000 INFO - Done: [clear: 62 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]]
+14:03:19.005 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:19.028 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:19.031 INFO - Executing: [send keys: 62 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input], [0]])
+14:03:19.096 INFO - Done: [send keys: 62 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input], [0]]
+14:03:19.101 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:19.116 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:19.119 INFO - Executing: [is displayed: 63 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:19.148 INFO - Done: [is displayed: 63 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:19.151 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[3]/td[2]/select])
+14:03:19.166 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[3]/td[2]/select]
+14:03:19.169 INFO - Executing: [send keys: 64 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[3]/td[2]/select], [*]])
+14:03:19.248 INFO - Done: [send keys: 64 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[3]/td[2]/select], [*]]
+14:03:19.253 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:19.265 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:19.268 INFO - Executing: [is displayed: 63 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:19.279 INFO - Done: [is displayed: 63 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:19.282 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:19.292 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:19.295 INFO - Executing: [get text: 63 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:19.315 INFO - Done: [get text: 63 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:19.351 INFO - Executing: [get: http://www.globalsqa.com/angularJs-protractor/SimpleCalculator/])
+14:03:19.433 INFO - Done: [get: http://www.globalsqa.com/angularJs-protractor/SimpleCalculator/]
+14:03:19.437 INFO - Executing: [find element: By.cssSelector: h1])
+14:03:19.449 INFO - Done: [find element: By.cssSelector: h1]
+14:03:19.452 INFO - Executing: [get text: 65 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> css selector: h1]])
+14:03:19.472 INFO - Done: [get text: 65 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> css selector: h1]]
+14:03:19.476 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:19.485 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:19.488 INFO - Executing: [is displayed: 66 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:19.505 INFO - Done: [is displayed: 66 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:19.508 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:19.519 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:19.522 INFO - Executing: [clear: 66 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:19.545 INFO - Done: [clear: 66 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:19.548 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:19.559 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:19.562 INFO - Executing: [is displayed: 66 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:19.572 INFO - Done: [is displayed: 66 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:19.575 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:19.585 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:19.588 INFO - Executing: [send keys: 66 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input], [5, 5]])
+14:03:19.640 INFO - Done: [send keys: 66 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input], [5, 5]]
+14:03:19.644 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:19.657 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:19.660 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:19.673 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:19.676 INFO - Executing: [clear: 67 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]])
+14:03:19.707 INFO - Done: [clear: 67 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]]
+14:03:19.711 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:19.726 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:19.729 INFO - Executing: [send keys: 67 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input], [5, 5]])
+14:03:19.779 INFO - Done: [send keys: 67 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input], [5, 5]]
+14:03:19.782 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:19.797 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:19.800 INFO - Executing: [is displayed: 68 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:19.824 INFO - Done: [is displayed: 68 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:19.828 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[3]/td[2]/select])
+14:03:19.841 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[3]/td[2]/select]
+14:03:19.844 INFO - Executing: [send keys: 69 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[3]/td[2]/select], [/]])
+14:03:19.896 INFO - Done: [send keys: 69 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[3]/td[2]/select], [/]]
+14:03:19.900 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:19.915 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:19.918 INFO - Executing: [is displayed: 68 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:19.930 INFO - Done: [is displayed: 68 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:19.933 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:19.955 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:19.958 INFO - Executing: [get text: 68 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:19.982 INFO - Done: [get text: 68 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:19.986 INFO - Executing: [get: http://www.globalsqa.com/angularJs-protractor/SimpleCalculator/])
+14:03:20.048 INFO - Done: [get: http://www.globalsqa.com/angularJs-protractor/SimpleCalculator/]
+14:03:20.052 INFO - Executing: [find element: By.cssSelector: h1])
+14:03:20.065 INFO - Done: [find element: By.cssSelector: h1]
+14:03:20.068 INFO - Executing: [get text: 70 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> css selector: h1]])
+14:03:20.090 INFO - Done: [get text: 70 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> css selector: h1]]
+14:03:20.094 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:20.104 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:20.107 INFO - Executing: [is displayed: 71 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:20.125 INFO - Done: [is displayed: 71 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:20.129 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:20.141 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:20.144 INFO - Executing: [clear: 71 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:20.169 INFO - Done: [clear: 71 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:20.173 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:20.184 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:20.188 INFO - Executing: [is displayed: 71 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:20.198 INFO - Done: [is displayed: 71 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:20.201 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:20.212 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:20.215 INFO - Executing: [send keys: 71 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input], [-, 1, 2]])
+14:03:20.280 INFO - Done: [send keys: 71 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input], [-, 1, 2]]
+14:03:20.284 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:20.298 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:20.302 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:20.314 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:20.317 INFO - Executing: [clear: 72 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]])
+14:03:20.346 INFO - Done: [clear: 72 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]]
+14:03:20.354 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:20.364 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:20.368 INFO - Executing: [send keys: 72 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input], [-, 1, 2]])
+14:03:20.428 INFO - Done: [send keys: 72 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input], [-, 1, 2]]
+14:03:20.432 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:20.446 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:20.449 INFO - Executing: [is displayed: 73 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:20.475 INFO - Done: [is displayed: 73 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:20.478 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[3]/td[2]/select])
+14:03:20.493 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[3]/td[2]/select]
+14:03:20.496 INFO - Executing: [send keys: 74 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[3]/td[2]/select], [/]])
+14:03:20.547 INFO - Done: [send keys: 74 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[3]/td[2]/select], [/]]
+14:03:20.552 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:20.567 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:20.571 INFO - Executing: [is displayed: 73 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:20.585 INFO - Done: [is displayed: 73 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:20.589 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:20.601 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:20.604 INFO - Executing: [get text: 73 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:20.628 INFO - Done: [get text: 73 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:20.632 INFO - Executing: [get: http://www.globalsqa.com/angularJs-protractor/SimpleCalculator/])
+14:03:20.696 INFO - Done: [get: http://www.globalsqa.com/angularJs-protractor/SimpleCalculator/]
+14:03:20.701 INFO - Executing: [find element: By.cssSelector: h1])
+14:03:20.714 INFO - Done: [find element: By.cssSelector: h1]
+14:03:20.717 INFO - Executing: [get text: 75 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> css selector: h1]])
+14:03:20.737 INFO - Done: [get text: 75 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> css selector: h1]]
+14:03:20.740 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:20.750 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:20.753 INFO - Executing: [is displayed: 76 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:20.770 INFO - Done: [is displayed: 76 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:20.775 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:20.786 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:20.788 INFO - Executing: [clear: 76 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:20.811 INFO - Done: [clear: 76 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:20.816 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:20.826 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:20.829 INFO - Executing: [is displayed: 76 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:20.840 INFO - Done: [is displayed: 76 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:20.843 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:20.854 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:20.857 INFO - Executing: [send keys: 76 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input], [1, 2]])
+14:03:20.906 INFO - Done: [send keys: 76 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input], [1, 2]]
+14:03:20.909 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:20.923 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:20.928 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:20.942 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:20.944 INFO - Executing: [clear: 77 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]])
+14:03:20.975 INFO - Done: [clear: 77 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]]
+14:03:20.979 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:20.994 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:20.997 INFO - Executing: [send keys: 77 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input], [-, 1, 2]])
+14:03:21.062 INFO - Done: [send keys: 77 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input], [-, 1, 2]]
+14:03:21.067 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:21.079 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:21.082 INFO - Executing: [is displayed: 78 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:21.105 INFO - Done: [is displayed: 78 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:21.108 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[3]/td[2]/select])
+14:03:21.123 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[3]/td[2]/select]
+14:03:21.127 INFO - Executing: [send keys: 79 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[3]/td[2]/select], [/]])
+14:03:21.186 INFO - Done: [send keys: 79 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[3]/td[2]/select], [/]]
+14:03:21.191 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:21.215 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:21.219 INFO - Executing: [is displayed: 78 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:21.241 INFO - Done: [is displayed: 78 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:21.245 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:21.261 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:21.264 INFO - Executing: [get text: 78 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:21.295 INFO - Done: [get text: 78 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:21.299 INFO - Executing: [get: http://www.globalsqa.com/angularJs-protractor/SimpleCalculator/])
+14:03:21.381 INFO - Done: [get: http://www.globalsqa.com/angularJs-protractor/SimpleCalculator/]
+14:03:21.386 INFO - Executing: [find element: By.cssSelector: h1])
+14:03:21.396 INFO - Done: [find element: By.cssSelector: h1]
+14:03:21.399 INFO - Executing: [get text: 80 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> css selector: h1]])
+14:03:21.419 INFO - Done: [get text: 80 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> css selector: h1]]
+14:03:21.422 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:21.432 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:21.435 INFO - Executing: [is displayed: 81 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:21.456 INFO - Done: [is displayed: 81 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:21.459 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:21.470 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:21.473 INFO - Executing: [clear: 81 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:21.496 INFO - Done: [clear: 81 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:21.500 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:21.513 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:21.517 INFO - Executing: [is displayed: 81 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]])
+14:03:21.527 INFO - Done: [is displayed: 81 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]]
+14:03:21.530 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input])
+14:03:21.542 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[1]/td[2]/input]
+14:03:21.546 INFO - Executing: [send keys: 81 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input], [0]])
+14:03:21.600 INFO - Done: [send keys: 81 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[1]/td[2]/input], [0]]
+14:03:21.604 INFO - Executing: [find elements: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:21.618 INFO - Done: [find elements: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:21.621 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:21.634 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:21.637 INFO - Executing: [clear: 82 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]])
+14:03:21.670 INFO - Done: [clear: 82 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]]
+14:03:21.674 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input])
+14:03:21.686 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[2]/td[2]/input]
+14:03:21.689 INFO - Executing: [send keys: 82 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input], [0]])
+14:03:21.744 INFO - Done: [send keys: 82 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[2]/td[2]/input], [0]]
+14:03:21.748 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:21.763 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:21.768 INFO - Executing: [is displayed: 83 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:21.790 INFO - Done: [is displayed: 83 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:21.794 INFO - Executing: [find element: By.xpath: /html/body/div/table/tbody/tr[3]/td[2]/select])
+14:03:21.812 INFO - Done: [find element: By.xpath: /html/body/div/table/tbody/tr[3]/td[2]/select]
+14:03:21.817 INFO - Executing: [send keys: 84 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[3]/td[2]/select], [/]])
+14:03:21.878 INFO - Done: [send keys: 84 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/table/tbody/tr[3]/td[2]/select], [/]]
+14:03:21.883 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:21.897 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:21.901 INFO - Executing: [is displayed: 83 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:21.913 INFO - Done: [is displayed: 83 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:21.919 INFO - Executing: [find elements: By.xpath: /html/body/div/b])
+14:03:21.940 INFO - Done: [find elements: By.xpath: /html/body/div/b]
+14:03:21.943 INFO - Executing: [get text: 83 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]])
+14:03:21.968 INFO - Done: [get text: 83 [[ChromeDriver: chrome on MAC (2e42e9ad4b102913d2baf66f909e77c5)] -> xpath: /html/body/div/b]]
+14:03:21.973 INFO - Executing: [delete session: c6b46687-b33b-4a6d-95e3-73c9ae7d7846])
+14:03:22.248 INFO - Done: [delete session: c6b46687-b33b-4a6d-95e3-73c9ae7d7846]
