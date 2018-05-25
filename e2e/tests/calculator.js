@@ -14,7 +14,7 @@ before : function (client) {
 
 
 'TestCase for summation function of calculator': function (client) {
-	var expectedResults ={
+  var expectedResults ={
 
      "add postitive inputs" :[
      [55, 55, '55 + 55 = 110']
@@ -33,9 +33,9 @@ before : function (client) {
 
      ]
 
-	};
-	
-	for (var x in expectedResults){
+  };
+  
+  for (var x in expectedResults){
       var values = expectedResults[x];
       for(var i = 0; i < values.length; i++) {
         var inputa = values[i][0];
@@ -64,7 +64,7 @@ before : function (client) {
  
 },
 'TestCase for subtraction function of calculator': function (client) {
-	var expectedResults ={
+  var expectedResults ={
 
      "subtract postitive inputs" :[
      [55, 55, '55 - 55 = 0']
@@ -83,9 +83,9 @@ before : function (client) {
 
      ]
 
-	};
-	
-	for (var x in expectedResults){
+  };
+  
+  for (var x in expectedResults){
       var values = expectedResults[x];
       for(var i = 0; i < values.length; i++) {
         var inputa = values[i][0];
@@ -115,7 +115,7 @@ before : function (client) {
 },
 
 'TestCase for multiplication function of calculator': function (client) {
-	var expectedResults ={
+  var expectedResults ={
 
      "multiple postitive inputs" :[
      [55, 55, '55 * 55 = 3025']
@@ -138,9 +138,9 @@ before : function (client) {
 
      ]
 
-	};
-	
-	for (var x in expectedResults){
+  };
+  
+  for (var x in expectedResults){
       var values = expectedResults[x];
       for(var i = 0; i < values.length; i++) {
         var inputa = values[i][0];
@@ -170,7 +170,7 @@ before : function (client) {
 },
 
 'TestCase for division function of calculator': function (client) {
-	var expectedResults ={
+  var expectedResults ={
 
      "devide postitive inputs" :[
      [55, 55, '55 / 55 = 1']
@@ -185,7 +185,7 @@ before : function (client) {
  
      ],
      "devide two zero input": [
-      [0, 0, '0 / 0 = undefined']
+      [0, 0, '0 / 0 = NaN']
 
      ],
      "devide any input by zero": [
@@ -197,9 +197,55 @@ before : function (client) {
 
      ]
 
-	};
-	
-	for (var x in expectedResults){
+  };
+  
+  for (var x in expectedResults){
+      var values = expectedResults[x];
+      for(var i = 0; i < values.length; i++) {
+        var inputa = values[i][0];
+          var inputb = values[i][1];
+         var  text = values[i][2];
+}
+
+ var basic = client.page.calculator();
+
+ basic.navigate()
+ .assert.containsText('h1', 'AngularJS calculator')
+ .waitForElementVisible('@inputa', 3000)
+ .clearValue('@inputa')
+ .waitForElementVisible('@inputa', 3000)
+ .setValue('@inputa', inputa)
+ .waitForElementPresent('@inputb', 4000)
+ .clearValue('@inputb')
+ .setValue('@inputb', inputb)
+ .waitForElementVisible('@text', 3000)
+ .setValue('@dropdown', '/')
+ .waitForElementVisible('@text', 3000)
+ .expect.element('@text').text.to.equal(text);
+  
+} 
+ 
+},
+
+'TestCase for calculator by giving invalid input': function (client) {
+  var expectedResults ={
+
+     "devide postitive inputs" :[
+     [a, b, 'please enter number or float in the field']
+  
+     ],
+     "devide negative input": [
+     [-12, NaN, 'please enter number or float in the field']
+  
+     ],
+     "devide postitive and negative input": [
+      [12, '@3$%&', 'please enter number or float in the field']
+ 
+     ]
+
+  };
+  
+  for (var x in expectedResults){
       var values = expectedResults[x];
       for(var i = 0; i < values.length; i++) {
         var inputa = values[i][0];
@@ -226,8 +272,6 @@ before : function (client) {
 } 
  
 }
-
-
 
 
 };
