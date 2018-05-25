@@ -18,19 +18,15 @@ before : function (client) {
 
      "add postitive inputs" :[
      [55, 55, '55 + 55 = 110']
-  
      ],
      "add negative input": [
      [-12, -12, '-12 + -12 = -24']
-  
      ],
      "add postitive and negative input": [
       [12, -12, '12 + -12 = 0']
- 
      ],
      "add two zero input": [
       [0, 0, '0 + 0 = 0']
-
      ]
 
   };
@@ -44,7 +40,6 @@ before : function (client) {
 }
 
  var basic = client.page.calculator();
-
  basic.navigate()
  .assert.containsText('h1', 'AngularJS calculator')
  .waitForElementVisible('@inputa', 3000)
@@ -65,18 +60,14 @@ before : function (client) {
 },
 'TestCase for subtraction function of calculator': function (client) {
   var expectedResults ={
-
      "subtract postitive inputs" :[
      [55, 55, '55 - 55 = 0']
-  
      ],
      "subtract negative input": [
      [-12, -12, '-12 - -12 = 0']
-  
      ],
      "subtract postitive and negative input": [
       [12, -12, '12 - -12 = 24']
- 
      ],
      "subtract two zero input": [
       [0, 0, '0 - 0 = 0']
@@ -94,9 +85,7 @@ before : function (client) {
 }
 
  var basic = client.page.calculator();
-
  basic.navigate()
- .assert.containsText('h1', 'AngularJS calculator')
  .waitForElementVisible('@inputa', 3000)
  .clearValue('@inputa')
  .waitForElementVisible('@inputa', 3000)
@@ -119,23 +108,18 @@ before : function (client) {
 
      "multiple postitive inputs" :[
      [55, 55, '55 * 55 = 3025']
-  
      ],
      "multiple negative input": [
      [-12, -12, '-12 * -12 = 144']
-  
      ],
      "multiple postitive and negative input": [
       [12, -12, '12 * -12 = -144']
- 
      ],
      "multiple two zero input": [
       [0, 0, '0 * 0 = 0']
-
      ],
      "multiple any input with zero": [
       [12, 0, '12 * 0 = 0']
-
      ]
 
   };
@@ -149,9 +133,7 @@ before : function (client) {
 }
 
  var basic = client.page.calculator();
-
  basic.navigate()
- .assert.containsText('h1', 'AngularJS calculator')
  .waitForElementVisible('@inputa', 3000)
  .clearValue('@inputa')
  .waitForElementVisible('@inputa', 3000)
@@ -174,23 +156,18 @@ before : function (client) {
 
      "devide postitive inputs" :[
      [55, 55, '55 / 55 = 1']
-  
      ],
      "devide negative input": [
      [-12, -12, '-12 / -12 = 1']
-  
      ],
      "devide postitive and negative input": [
       [12, -12, '12 / -12 = -1']
- 
      ],
      "devide two zero input": [
       [0, 0, '0 / 0 = NaN']
-
      ],
      "devide any input by zero": [
       [12, 0, '12 / 0 = infinite']
-
      ],
      "devide zero by any input": [
       [0, 1, '0 / 1 = 0']
@@ -208,9 +185,7 @@ before : function (client) {
 }
 
  var basic = client.page.calculator();
-
  basic.navigate()
- .assert.containsText('h1', 'AngularJS calculator')
  .waitForElementVisible('@inputa', 3000)
  .clearValue('@inputa')
  .waitForElementVisible('@inputa', 3000)
@@ -232,15 +207,12 @@ before : function (client) {
 
      "devide postitive inputs" :[
      [a, b, 'please enter number or float in the field']
-  
      ],
      "devide negative input": [
      [-12, NaN, 'please enter number or float in the field']
-  
      ],
      "devide postitive and negative input": [
       [12, '@3$%&', 'please enter number or float in the field']
- 
      ]
 
   };
@@ -254,9 +226,7 @@ before : function (client) {
 }
 
  var basic = client.page.calculator();
-
  basic.navigate()
- .assert.containsText('h1', 'AngularJS calculator')
  .waitForElementVisible('@inputa', 3000)
  .clearValue('@inputa')
  .waitForElementVisible('@inputa', 3000)
